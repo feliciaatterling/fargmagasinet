@@ -63,10 +63,9 @@ body {
 }
 
 .open-hours {
-  margin-top: 1.5rem;
+  margin-top: 27rem;
   font-size: 0.9rem;
   background: rgba(255, 255, 255, 0.6);
-  bottom: 15;
   width: 100%;
   text-align: center;
   position: absolute;
