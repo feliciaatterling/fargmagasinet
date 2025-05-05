@@ -1,14 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
     <title>Färgmagasinet</title>
-    <link rel="stylesheet" href="styles.css">
-    <script type="module" src="app.jsx"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
-  <header>Färgmagasinet</header>
   <body>
-    <h1>Välkommen till Färgmagasinet!</h1>
-    <div class="box1">Box 1</div>
+    <section class="hero">
+      <img src="./images/hero.jpg" alt="Wood samples" />
+
+      <!-- Overlay content -->
+      <div class="overlay-content">
+        <!-- Navbar -->
+        <nav class="navbar">
+          <a href="butik.html">BUTIKEN</a>
+          <a href="tips.html">TIPS & TRIX</a>
+          <a href="#kontakt">KONTAKT</a>
+        </nav>
+        <hr class="separator" />
+
+        <!-- Hero Text -->
+        <div class="hero-text">
+          <h1 style="font-size: 40px">FÄRGMAGASINET</h1>
+          <p>
+            Här kan du hitta äggoljetempera från Av jord och söker du
+            linoljefärg är vi återförsäljare för Wibo färg. Du kan även hyra
+            olika Speedheater apparater för att ta bort färg på fasad, möbler,
+            fönster, mm. Det mesta tas hem på beställning. Förutom att sälja
+            färg jobbar vi med fönsterrenovering i vår Fönstervagn.
+          </p>
+        </div>
+
+        <!-- Opening hours -->
+        <div class="open-hours">
+          <h2>BUTIKENS ÖPPETTIDER</h2>
+          <p>
+            Onsdagar 14–18<br />eller boka ett besök<br />Poppelgatan 2,
+            Alingsås
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cards: Vad vi erbjuder -->
+
+    <section class="offers">
+      <h2>VAD VI ERBJUDER</h2>
+      <hr />
+      <div class="card-container">
+        <div class="card">
+          <img src="./images/äggoljetempera.jpg" alt="" />
+          <p>ÄGGOLJETEMPERA</p>
+        </div>
+        <div class="card">
+          <img src="./images/linoljefärg.jpg" alt="" />
+          <p>LINOLJEFÄRG</p>
+        </div>
+        <div class="card">
+          <img src="./images/speedheater.jpg" alt="" />
+          <p>SPEEDHEATER</p>
+        </div>
+        <div class="card">
+          <img src="./images/fönstervagnen.jpg" alt="" />
+          <p>FÖNSTERVAGNEN</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="kontakt">
+      <hr />
+      <h2>Kontakt</h2>
+      <div class="contacts">
+        <p>Daniel Kindblad<br />0703-640220</p>
+        <p>fargmagasinet@brafarg.se</p>
+        <p>Marita Kindblad<br />0739-631938</p>
+      </div>
+    </footer>
+
+    <script type="module" src="main.js"></script>
   </body>
 </html>

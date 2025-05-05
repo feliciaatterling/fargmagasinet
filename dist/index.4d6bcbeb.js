@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"iMeKy":[function(require,module,exports) {
+})({"3zq8u":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "ada67e5520df23ed";
+module.bundle.HMR_BUNDLE_ID = "bed887d14d6bcbeb";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,79 +574,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"gpH1n":[function(require,module,exports) {
-var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
-parcelHelpers.defineInteropFlag(exports);
-parcelHelpers.export(exports, "default", ()=>Home);
-function Home() {
-    return /*#__PURE__*/ React.createElement(React.Fragment, null, /*#__PURE__*/ React.createElement(Head, {
-        __source: {
-            fileName: "src/app.jsx",
-            lineNumber: 4,
-            columnNumber: 13
-        },
-        __self: this
-    }, /*#__PURE__*/ React.createElement("title", {
-        __source: {
-            fileName: "src/app.jsx",
-            lineNumber: 5,
-            columnNumber: 17
-        },
-        __self: this
-    }, "F\xe4rgmagasinet")), /*#__PURE__*/ React.createElement(Header, {
-        __source: {
-            fileName: "src/app.jsx",
-            lineNumber: 7,
-            columnNumber: 13
-        },
-        __self: this
-    }), /*#__PURE__*/ React.createElement("body", {
-        __source: {
-            fileName: "src/app.jsx",
-            lineNumber: 8,
-            columnNumber: 13
-        },
-        __self: this
-    }, /*#__PURE__*/ React.createElement("h1", {
-        __source: {
-            fileName: "src/app.jsx",
-            lineNumber: 9,
-            columnNumber: 17
-        },
-        __self: this
-    }, "Hello")));
-}
+},{}],"gLLPy":[function(require,module,exports) {
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"gkKU3":[function(require,module,exports) {
-exports.interopDefault = function(a) {
-    return a && a.__esModule ? a : {
-        default: a
-    };
-};
-exports.defineInteropFlag = function(a) {
-    Object.defineProperty(a, "__esModule", {
-        value: true
-    });
-};
-exports.exportAll = function(source, dest) {
-    Object.keys(source).forEach(function(key) {
-        if (key === "default" || key === "__esModule" || Object.prototype.hasOwnProperty.call(dest, key)) return;
-        Object.defineProperty(dest, key, {
-            enumerable: true,
-            get: function() {
-                return source[key];
-            }
-        });
-    });
-    return dest;
-};
-exports.export = function(dest, destName, get) {
-    Object.defineProperty(dest, destName, {
-        enumerable: true,
-        get: get
-    });
-};
+},{}]},["3zq8u","gLLPy"], "gLLPy", "parcelRequire716c")
 
-},{}]},["iMeKy","gpH1n"], "gpH1n", "parcelRequire716c")
-
-//# sourceMappingURL=index.20df23ed.js.map
+//# sourceMappingURL=index.4d6bcbeb.js.map

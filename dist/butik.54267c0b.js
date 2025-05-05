@@ -142,13 +142,13 @@
       this[globalName] = mainExports;
     }
   }
-})({"beUwC":[function(require,module,exports) {
+})({"69hht":[function(require,module,exports) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
-module.bundle.HMR_BUNDLE_ID = "7055c94b59712999";
+module.bundle.HMR_BUNDLE_ID = "cd5bb36654267c0b";
 "use strict";
 /* global HMR_HOST, HMR_PORT, HMR_ENV_HASH, HMR_SECURE, chrome, browser, __parcel__import__, __parcel__importScripts__, ServiceWorkerGlobalScope */ /*::
 import type {
@@ -574,8 +574,8 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
     });
 }
 
-},{}],"4M6V8":[function(require,module,exports) {
+},{}],"f5Bd7":[function(require,module,exports) {
 
-},{}]},["beUwC","4M6V8"], "4M6V8", "parcelRequire716c")
+},{}]},["69hht","f5Bd7"], "f5Bd7", "parcelRequire716c")
 
-//# sourceMappingURL=fargmagasinet.59712999.js.map
+//# sourceMappingURL=butik.54267c0b.js.map

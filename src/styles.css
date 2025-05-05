@@ -1,22 +1,130 @@
-header {
-    background-color: rgb(249, 245, 239);
-    padding: 10;
-    text-align: center;
-    font: optional;
-    font-size:large;
-}
-
 body {
-    background-color: rgb(150, 161, 144);
-    text-align: center;
+  margin: 0;
+  background: #fafafa;
+  color: #333;
+  font-family: "Montserrat", sans-serif;
 }
 
-.box1 {
-    background-color: rgb(192, 199, 188);
-    width: 20vw;
-    height: 20vh;
-    text-align: center;
-    display: flex;
-    flex: content;
-    align-items: center;
+.hero {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 1rem;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 15rem;
+  padding: 1rem;
+  z-index: 10;
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: black;
+  transition: color 0.2s;
+}
+
+.navbar a:hover {
+  color: #555;
+}
+
+.hero-text {
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  max-width: 600px;
+}
+
+.open-hours {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.6);
+  bottom: 15;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+}
+
+.info,
+.offers,
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.card {
+  width: 15vw;
+  height: 400px;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.separator {
+  height: 1px;
+  background-color: #0000005a;
+  width: 95%;
+  text-align: center;
+  margin: 35px 0;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-right: auto;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
 }
