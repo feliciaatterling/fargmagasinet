@@ -1,0 +1,5 @@
+# Ignore dist folder (production build)
+dist/
+
+# Ignore parcel cache
+.parcel-cache/
